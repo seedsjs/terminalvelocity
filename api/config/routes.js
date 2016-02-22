@@ -50,6 +50,7 @@ module.exports.routes = {
   //This automatically serves all routes, apart from /api/** routes to ember
   //(which will be initialized in assets/index.html). This route needs to be
   //at the very bottom if you want to server other routes through Sails, because they are matched in order
+  '/api/v1/ping': { controller: 'Ping', action: 'index', skipAssets: true },
   '/*': { controller: 'App', action: 'serve', skipAssets: true, skipRegex: /^\/api\/.*$/ }
 
   //You could also just serve the index view directly if you want

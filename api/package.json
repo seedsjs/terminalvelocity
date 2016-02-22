@@ -16,7 +16,9 @@
     "sails-generate-ember-blueprints": "0.0.9",
     "sails-hook-apianalytics": "^0.3.0",
     "sails-hook-autoreload": "^0.11.5",
-    "sails-hook-dev": "balderdashy/sails-hook-dev"
+    "sails-hook-dev": "balderdashy/sails-hook-dev",
+    "sails-service-cipher": "^3.2.1",
+    "sails-service-hash": "^3.2.1"
   },
   "devDependencies": {
     "esdoc": "0.4.3",
