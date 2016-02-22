@@ -20,8 +20,7 @@
     "sails-service-cipher": "^3.2.1",
     "sails-service-hash": "^3.2.1",
     "sails-service-image": "^3.1.1",
-    "sails-service-location": "^3.3.1",
-    "sails-service-mailer": "^3.2.1"
+    "sails-service-location": "^3.3.1"
   },
   "devDependencies": {
     "esdoc": "0.4.3",
