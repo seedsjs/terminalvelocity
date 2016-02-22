@@ -7,6 +7,10 @@ module.exports = function(environment) {
     baseURL: '/',
     apiURL: 'http://localhost:1776',
     locationType: 'auto',
+    segment: {
+      WRITE_KEY: 'nGUWUD7I9cRJYswciMSh2zj6u8sIjtYW',
+      LOG_EVENT_TRACKING: true
+    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
